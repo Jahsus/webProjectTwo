@@ -1,0 +1,19 @@
+group 'ivi'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.seleniumhq.selenium:selenium-java:3.4.0'
+    testCompile 'org.seleniumhq.selenium:selenium-firefox-driver:3.4.0'
+    testCompile 'org.seleniumhq.selenium:htmlunit-driver:2.24'
+    testCompile 'org.seleniumhq.selenium:selenium-server:3.4.0'
+    testCompile 'org.seleniumhq.selenium:selenium-remote-driver:2.44.0'
+}
